@@ -9,3 +9,14 @@ being able to understand working with relative file/folder paths. I knew that . 
 we are on while .. refers to the precious directory
 
 <h1>I will compile a cheat sheet for HTML stuff before moving on to the next lesson</h1>
+Boilerplate:
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Document</title>
+    </head>
+    <body>
+        
+    </body>
+</html>
