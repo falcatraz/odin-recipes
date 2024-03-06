@@ -10,6 +10,7 @@ we are on while .. refers to the precious directory
 
 <h1>I will compile a cheat sheet for HTML stuff before moving on to the next lesson</h1>
 Boilerplate:
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -17,6 +18,8 @@ Boilerplate:
         <title>Document</title>
     </head>
     <body>
-        
+        <p>Paragraph element will allow us to have paragraphs, since
+        indentation with simply space is not enough in html
+        </p>
     </body>
 </html>
