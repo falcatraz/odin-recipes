@@ -4,3 +4,12 @@ img {
     height: auto;
     width: 400px;
 }
+
+* {
+    outline: 2px solid rebeccapurple;
+}
+
+ul {
+    display: inline-flex;
+    list-style-type: none;
+}
