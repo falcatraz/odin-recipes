@@ -5,11 +5,11 @@ img {
     width: 400px;
 }
 
-* {
+/* * {
     outline: 2px solid rebeccapurple;
-}
+} */
 
 ul {
-    display: inline-flex;
+    display:inline-table;
     list-style-type: none;
 }
