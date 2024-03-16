@@ -11,11 +11,21 @@ ul {
     /* Border is for the border, the wall around the content */
     border: 5px solid;
     /* Align the text in the middle */
-    text-align: center;
+
     /* Margin is like the exterior border, it is the space between elements */
     margin: auto;
     /* VERY IMPORTANT, this is so that the height and width we specified is the height and width of everything, the whole box
     So, the heigh and width we include will include the border, whatever thickness we specify */
+    box-sizing: border-box;
+}
+
+ol {
+    background-color: blueviolet;
+    height: auto;
+    width: 300px;
+    padding: auto;
+    border: 5px solid;
+    margin: auto;
     box-sizing: border-box;
 }
 
@@ -47,6 +57,44 @@ img {
     border: 5px solid;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+p {
+    background-color: greenyellow;
+    height: auto;
+    width: 300px;
+    text-align: center;
+    border: 5px solid;
+    padding: 10px;
+    margin: auto;
+    box-sizing:border-box;
+}
+
+h2 {
+    background-color: orange;
+    height: auto;
+    width: 300px;
+    border: 5px solid;
+    text-align: center;
+    padding: 5px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.back {
+    /* when in doubt, treat it as a block */
+    display: block;
+    background-color: olivedrab;
+    height: auto;
+    width: 300px;
+    text-align: center;
+    padding: 5px;
+    border: 5px solid black;
+    margin: auto;  
     margin-bottom: 20px;
     box-sizing: border-box;
 }
