@@ -1,2 +1,36 @@
 /* style.css */
 
+ul {
+    background-color: red;
+    height: auto;
+    width: 300px;
+    padding: 10px;
+    list-style-type: none;
+    border: 5px solid;
+    text-align: center;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+h1 {
+    background-color: blue;
+    height: auto;
+    width: 300px;
+    padding: 10px;
+    border: 5px solid;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    height: auto;
+    width: 300px;
+    border: 5px solid;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
