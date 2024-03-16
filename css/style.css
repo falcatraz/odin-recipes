@@ -4,27 +4,43 @@ ul {
     background-color: red;
     height: auto;
     width: 300px;
+    /* Padding is for the space between the border and the content */
     padding: 10px;
+    /* Simply for lists so we do not see the disc */
     list-style-type: none;
+    /* Border is for the border, the wall around the content */
     border: 5px solid;
+    /* Align the text in the middle */
     text-align: center;
+    /* Margin is like the exterior border, it is the space between elements */
     margin: auto;
+    /* VERY IMPORTANT, this is so that the height and width we specified is the height and width of everything, the whole box
+    So, the heigh and width we include will include the border, whatever thickness we specify */
     box-sizing: border-box;
 }
 
 h1 {
     background-color: blue;
+    /* Specifying height and width is very important, or can be */
     height: auto;
     width: 300px;
+    /* padding is the space in between the content and the border */
     padding: 10px;
+    /* border is the border, the wall around the contents */
     border: 5px solid;
+    /* allows us to align the text in the center */
     text-align: center;
+    /* margin is the space in between elements */
     margin: auto;
+    /* we can be more specific in the margins, maybe we want different thicknesses on one side and not the other */
     margin-bottom: 20px;
+    /* again, this determines how we size our box
+    border-box means that the height and width we specify is the overall size of the box, border included */
     box-sizing: border-box;
 }
 
 img {
+    /*  */
     display: block;
     height: auto;
     width: 300px;
