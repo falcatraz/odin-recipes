@@ -20,12 +20,18 @@ ul {
 }
 
 ol {
+    /* background color of the ordered list */
     background-color: blueviolet;
+    /* We should usually specify the height */
     height: auto;
     width: 300px;
+    /* padding auto because it helped here for working witht he numbers on the list */
     padding: auto;
+    /* specifying border thickness and its visibility type */
     border: 5px solid;
+    /* auto margin because it helps to center it lol */
     margin: auto;
+    /* border-sizing: border-box helps us keep a consistent dimensionality of our boxes */
     box-sizing: border-box;
 }
 
