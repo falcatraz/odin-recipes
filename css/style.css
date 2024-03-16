@@ -56,51 +56,83 @@ h1 {
 }
 
 img {
-    /*  */
+    /*  I guess this helps us center an image or anything that does not 
+    want to be centered*/
     display: block;
+    /* specifying heigth and width */
     height: auto;
     width: 300px;
+    /* border thickness and how it looks (solid) */
     border: 5px solid;
+    /* auto margin right and left so we can center the image */
     margin-left: auto;
     margin-right: auto;
+    /* margin in the bottom to separate our elements */
     margin-bottom: 20px;
+    /* border box so we have consistency across the board */
     box-sizing: border-box;
 }
 
 p {
+    /* background color to help us work witht he box */
     background-color: greenyellow;
+    /* specifying the height and width */
     height: auto;
     width: 300px;
+    /* aligning text to the center */
     text-align: center;
+    /* border thickness and visibility */
     border: 5px solid;
+    /* padding 10px because why not */
     padding: 10px;
+    /* auto margin to center our box */
     margin: auto;
+    /* keep consistency of dimensionality */
     box-sizing:border-box;
 }
 
 h2 {
+    /* background color to see the box */
     background-color: orange;
+    /* gotta specify the height and width! */
     height: auto;
     width: 300px;
+    /* border and padding and margin to manipulate our boxes */
     border: 5px solid;
     text-align: center;
     padding: 5px;
     margin: auto;
+    /* again, we can be more specific with how we want our boxes to be in terms of margin, padding, and border */
     margin-top: 20px;
     margin-bottom: 20px;
+    /* gotta keep consistency across the board for box sizes */
     box-sizing: border-box;
 }
 
 .back {
-    /* when in doubt, treat it as a block */
+    /* when in doubt, treat it as a block 
+    so we can actually center it*/
     display: block;
     background-color: olivedrab;
+    /* important to specify the height and width */
     height: auto;
     width: 300px;
+    /* aligining text to the center */
     text-align: center;
+    /* padding just because */
     padding: 5px;
+    /* border size and color */
     border: 5px solid black;
+    /* auto margins so that it can center */
     margin: auto;  
+    /* being more specific with our margins so that there is space */
     margin-bottom: 20px;
+    /* box-sizing: border-box; so that we have consistent dimensionality */
     box-sizing: border-box;
+    color: white;
+}
+
+/* simple CSS rule for recipe so that they have white text */
+.recipe {
+    color: white;
 }
