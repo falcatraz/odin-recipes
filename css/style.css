@@ -135,3 +135,20 @@ h2 {
 .recipe {
     color: white;
 }
+
+.front {
+    display: flex;
+    height: auto;
+    width: 600px;
+}
+
+.front li {
+    background-color: blue;
+    margin: auto;
+    height: 50px;
+    width: 100px;
+    padding: 8px 0 8px 0;
+    text-align: center;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
